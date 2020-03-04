@@ -4,7 +4,7 @@ def line(line)
   else
     queue = "The line is currently: "
     line.each_with_index do |name, index|
-      queue << "#{index}. #{name} "
+      queue << "#{index + 1}. #{name} "
     end
     puts queue
   end
