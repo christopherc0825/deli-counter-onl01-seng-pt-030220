@@ -6,5 +6,6 @@ def line(line)
     line.each_with_index do |name, index|
       queue << "#{index}. #{name} "
     end
+    queue
   end
 end
